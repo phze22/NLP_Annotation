@@ -1,19 +1,13 @@
-## Inter-Annotator-Agreement
+## Annotator-Agreement Dimensions
 
 
 
-| Agreement                 | Catastrophy                                         | Task             | Statistics    | Machine Learning |
-| ------------------------- | --------------------------------------------------- | ---------------- | ------------- | ---------------- |
-| Inter-Annotator-Agreement | Task complexity                                     | check AdpaterHub | Subsample     | Confidence?      |
-| Intra-Annotator-Agreement | Task subjectivity                                   |                  | Whole dataset | Active Learning? |
-| Whole dataset (ReproGen)  | label type                                          |                  |               |                  |
-|                           | Data type                                           |                  |               |                  |
-|                           | Annotators (variable mostly considered in research) |                  |               |                  |
-|                           | Training                                            |                  |               |                  |
-|                           | Measurement                                         |                  |               |                  |
-
-
-
-Strange ideas:
-
-- adapters for annotation complexities
+| Agreement Measurement     | Agreement Catastrophy                               | Annotation Errors                              | Agreement Statistics | in-the-loop Machine Learning Annotation/ Agreement           |
+| ------------------------- | --------------------------------------------------- | ---------------------------------------------- | -------------------- | ------------------------------------------------------------ |
+| Inter-Annotator-Agreement | Task complexity                                     | Ambiguity (*data*)                             | Subsample (Overlaps) | Uncertainity: Confidence, judgement distributions, annotator confusion matrices |
+| Intra-Annotator-Agreement | Task subjectivity                                   | Variation (*data*, *across documents*)         | Whole dataset        | Active Learning                                              |
+| Whole dataset (ReproGen)  | label type                                          | Uncertainity (*annotators' lack of knowledge*) |                      |                                                              |
+|                           | Data type                                           | Error (*annotations*)                          |                      |                                                              |
+|                           | Annotators (variable mostly considered in research) | Bias (*comeplete annotation scheme*)           |                      |                                                              |
+|                           | Training                                            |                                                |                      |                                                              |
+|                           | Measurement                                         |                                                |                      |                                                              |
